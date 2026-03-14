@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-cinzel);
+  
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* Brand Colors */
+  --color-temple-red: #7A0E0E;
+  --color-antique-gold: #D4AF37;
+  --color-charcoal-black: #0F0F0F;
+  --color-ivory: #F7F3E9;
+  --color-bronze: #B87333;
+  --color-fire-amber: #FF7A00;
+  --color-lamp-glow: #FFD27F;
+
+  /* Basic Setup */
+  --color-primary: var(--color-temple-red);
+  --color-primary-foreground: var(--color-ivory);
+
+  --color-secondary: var(--color-antique-gold);
+  --color-secondary-foreground: var(--color-charcoal-black);
+
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  @keyframes accordion-down {
+    from { height: 0 }
+    to { height: var(--radix-accordion-content-height) }
+  }
+  @keyframes accordion-up {
+    from { height: var(--radix-accordion-content-height) }
+    to { height: 0 }
+  }
+  @keyframes kenburns {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.12); }
+  }
+}
+
+/* Base styles enforcing the cinematic night mode out of the box */
+:root {
+  --background: #0F0F0F;
+  --foreground: #F7F3E9;
+}
+
+@layer base {
+  * {
+    @apply border-white/10;
+  }
+  body {
+    @apply bg-[var(--background)] text-[var(--foreground)] antialiased font-sans overflow-x-hidden;
+  }
+  
+  .container {
+    @apply max-w-[1400px];
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+  
+  /* Custom scrollbar for webkit to match the cinematic dark mode */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0F0F0F;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #7A0E0E;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #D4AF37;
+  }
+}
