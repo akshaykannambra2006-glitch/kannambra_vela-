@@ -47,7 +47,7 @@ const CountdownDisplay: React.FC<CountdownDisplayProps> = ({ targetDate }) => {
   if (!isMounted) return <div className="h-24 md:h-32 opacity-0" />; // skeleton height
 
   return (
-    <div className="flex gap-4 md:gap-8 justify-center w-full max-w-4xl mx-auto mt-8 relative z-10">
+    <div className="flex gap-2 sm:gap-4 md:gap-8 justify-center w-full max-w-4xl mx-auto mt-8 relative z-10 px-2 lg:px-0">
       <TimeBlock value={timeLeft.days} label="Days" />
       <Spacer />
       <TimeBlock value={timeLeft.hours} label="Hours" />
@@ -60,8 +60,8 @@ const CountdownDisplay: React.FC<CountdownDisplayProps> = ({ targetDate }) => {
 };
 
 const TimeBlock = ({ value, label }: { value: number; label: string }) => (
-  <div className="flex flex-col items-center justify-center p-2">
-    <div className="text-4xl md:text-5xl lg:text-7xl font-serif text-[var(--color-antique-gold)] font-light drop-shadow-[0_0_15px_rgba(212,175,55,0.4)] tabular-nums leading-none">
+  <div className="flex flex-col items-center justify-center p-1 sm:p-2">
+    <div className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-serif text-[var(--color-antique-gold)] font-light drop-shadow-[0_0_15px_rgba(212,175,55,0.4)] tabular-nums leading-none">
       {formatNumber(value)}
     </div>
     <div className="text-[10px] md:text-xs text-[var(--color-ivory)] tracking-[0.2em] uppercase mt-2 opacity-80 font-light">
@@ -71,7 +71,7 @@ const TimeBlock = ({ value, label }: { value: number; label: string }) => (
 );
 
 const Spacer = () => (
-  <div className="text-2xl md:text-4xl lg:text-5xl font-serif text-[var(--color-antique-gold)] font-light opacity-30 pt-1 md:pt-3">
+  <div className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-serif text-[var(--color-antique-gold)] font-light opacity-30 pt-1 md:pt-3">
     :
   </div>
 );

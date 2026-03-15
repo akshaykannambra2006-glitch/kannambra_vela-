@@ -20,7 +20,7 @@ export default function SectionWrapper({
   return (
     <section
       id={id}
-      className={cn("relative z-10 py-24 md:py-32 overflow-hidden", className)}
+      className={cn("relative z-10 w-full py-24 md:py-32 overflow-hidden", className)}
     >
       <motion.div
         initial={{ opacity: 0, y: 50 }}

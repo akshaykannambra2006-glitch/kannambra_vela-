@@ -170,7 +170,7 @@ export default function PanchavadyamSection() {
         <div className="relative z-[20]">
           {/* Header */}
           <div ref={titleRef} className="text-center mb-24">
-            <h2 className="font-serif text-5xl md:text-7xl text-[var(--color-fire-amber)] drop-shadow-[0_0_30px_rgba(255,122,0,0.5)] tracking-widest uppercase mb-4">
+            <h2 className="font-serif text-3xl sm:text-5xl md:text-7xl text-[var(--color-fire-amber)] drop-shadow-[0_0_30px_rgba(255,122,0,0.5)] tracking-widest uppercase mb-4">
               Heartbeat of Kerala
             </h2>
             <p className="font-sans text-[var(--color-antique-gold)] tracking-[0.4em] uppercase text-sm">

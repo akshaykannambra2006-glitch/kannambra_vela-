@@ -291,12 +291,12 @@ export default function SupportVelaSection() {
 
                     <div className="pt-2 border-t border-white/10 w-[80%] mx-auto">
                         <p className="text-white/40 text-[11px] uppercase tracking-widest mb-1">Account Number</p>
-                        <p className="text-[#D4AF37] font-mono text-base tracking-widest drop-shadow-[0_0_8px_rgba(212,175,55,0.5)] select-all">{bankAccount}</p>
+                        <p className="text-[#D4AF37] font-mono text-sm md:text-base tracking-widest drop-shadow-[0_0_8px_rgba(212,175,55,0.5)] select-all break-all">{bankAccount}</p>
                     </div>
 
                     <div className="pb-2">
                         <p className="text-white/40 text-[11px] uppercase tracking-widest mb-1">IFSC Code</p>
-                        <p className="text-[#D4AF37] font-mono text-base tracking-widest drop-shadow-[0_0_8px_rgba(212,175,55,0.5)] select-all">{ifscCode}</p>
+                        <p className="text-[#D4AF37] font-mono text-sm md:text-base tracking-widest drop-shadow-[0_0_8px_rgba(212,175,55,0.5)] select-all break-all">{ifscCode}</p>
                     </div>
 
                 </div>

@@ -77,7 +77,7 @@ export default function Vela2026Section() {
   }));
 
   return (
-    <section id="vela-2026" className="relative bg-[#050505] min-h-[90vh] md:min-h-screen overflow-hidden flex items-center justify-center py-32 border-y border-white/5" ref={sectionRef}>
+    <section id="vela-2026" className="relative w-full bg-[#050505] min-h-[90vh] md:min-h-screen overflow-hidden flex items-center justify-center py-32 border-y border-white/5" ref={sectionRef}>
       
       {/* Cinematic Background Layer */}
       <motion.div 
@@ -147,19 +147,19 @@ export default function Vela2026Section() {
       </div>
 
       {/* Main Content Layer */}
-      <div className="relative z-10 w-full max-w-5xl mx-auto px-6 h-full flex flex-col items-center justify-center pt-20 pb-10">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 h-full flex flex-col items-center justify-center pt-20 pb-10">
         
         <div className="text-center mb-16 relative w-full">
           <h4 className="v26-heading font-sans text-[var(--color-antique-gold)] tracking-[0.5em] text-xs md:text-sm uppercase mb-6 drop-shadow-md">
             Events & Schedule
           </h4>
           
-          <h2 className="v26-title font-serif text-6xl md:text-8xl lg:text-[9rem] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF5D1] to-[#D4AF37] tracking-widest drop-shadow-[0_0_40px_rgba(212,175,55,0.5)] leading-none mb-8 whitespace-nowrap">
+          <h2 className="v26-title font-serif text-5xl sm:text-6xl md:text-8xl lg:text-[9rem] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF5D1] to-[#D4AF37] tracking-widest drop-shadow-[0_0_40px_rgba(212,175,55,0.5)] leading-none mb-8">
             VELA 2026
           </h2>
           
           <div className="v26-subtitle inline-block">
-            <p className="font-sans text-[var(--color-fire-amber)] tracking-[0.6em] md:tracking-[1em] uppercase text-sm md:text-lg drop-shadow-[0_0_15px_rgba(255,100,50,0.8)] animate-[pulse_3s_ease-in-out_Infinity] md:whitespace-nowrap">
+            <p className="font-sans text-[var(--color-fire-amber)] tracking-[0.3em] sm:tracking-[0.6em] md:tracking-[1em] uppercase text-xs sm:text-sm md:text-lg drop-shadow-[0_0_15px_rgba(255,100,50,0.8)] animate-[pulse_3s_ease-in-out_Infinity]">
               Events Updating Soon
             </p>
           </div>
@@ -177,7 +177,7 @@ export default function Vela2026Section() {
           
           <div className="relative w-full bg-[#0A0A0A]/80 backdrop-blur-xl border border-white/5 group-hover:border-[#D4AF37]/30 rounded-[2rem] p-10 md:p-16 flex flex-col items-center justify-center text-center shadow-[0_30px_60px_rgba(0,0,0,0.8)] transition-all duration-700">
             
-            <p className="v26-card-text font-serif text-xl md:text-2xl text-white/90 italic mb-12 drop-shadow-md max-w-2xl mx-auto">
+            <p className="v26-card-text font-serif text-xl md:text-2xl text-white/90 italic mb-12 drop-shadow-md max-w-4xl mx-auto">
               "The full festival schedule will be revealed soon."
             </p>
 
@@ -199,7 +199,7 @@ export default function Vela2026Section() {
             </div>
 
             {/* Timeline Teaser */}
-            <div className="w-full max-w-2xl relative mb-12 mx-auto" ref={timelineRef}>
+            <div className="w-full max-w-4xl relative mb-12 mx-auto" ref={timelineRef}>
               <div className="absolute top-1/2 left-0 w-full h-[2px] bg-white/10 -translate-y-1/2" />
               <div className="v26-timeline-line absolute top-1/2 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent -translate-y-1/2 shadow-[0_0_15px_rgba(212,175,55,0.8)]" />
               

@@ -178,7 +178,7 @@ export default function LocationSection() {
         >
           <div className="flex items-center justify-center gap-6 mb-8">
             <div className="w-16 h-[1px] bg-gradient-to-r from-transparent to-[var(--color-antique-gold)] opacity-50" />
-            <h2 className="font-serif text-4xl md:text-6xl lg:text-[6rem] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF5D1] to-[#D4AF37] drop-shadow-[0_0_20px_rgba(212,175,55,0.4)] tracking-widest uppercase leading-tight line-clamp-2 pb-2">
+            <h2 className="font-serif text-3xl sm:text-4xl md:text-6xl lg:text-[6rem] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF5D1] to-[#D4AF37] drop-shadow-[0_0_20px_rgba(212,175,55,0.4)] tracking-widest uppercase leading-tight line-clamp-2 pb-2">
               The Sacred Grounds
             </h2>
             <div className="w-16 h-[1px] bg-gradient-to-l from-transparent to-[var(--color-antique-gold)] opacity-50" />

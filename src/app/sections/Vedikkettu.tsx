@@ -172,7 +172,7 @@ export default function VedikkettuSection() {
             custom={0} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={staggervariants}
             className="text-center w-full mx-auto mb-12"
           >
-            <h2 className="font-serif text-6xl md:text-8xl lg:text-[10rem] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF5D1] to-[#D4AF37] drop-shadow-[0_0_30px_rgba(212,175,55,0.4)] tracking-widest uppercase mb-6 leading-none">
+            <h2 className="font-serif text-4xl sm:text-6xl md:text-8xl lg:text-[10rem] text-transparent bg-clip-text bg-gradient-to-b from-[#FFF5D1] to-[#D4AF37] drop-shadow-[0_0_30px_rgba(212,175,55,0.4)] tracking-widest uppercase mb-6 leading-none">
               Vedikkettu
             </h2>
             <p className="font-sans text-[var(--color-antique-gold)] tracking-[0.4em] md:tracking-[0.8em] uppercase text-sm md:text-lg drop-shadow-md">

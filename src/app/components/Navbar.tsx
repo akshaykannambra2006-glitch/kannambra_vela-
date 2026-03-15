@@ -84,12 +84,12 @@ export default function Navbar() {
             
             <div className="flex flex-col justify-center">
               {/* Malayalam Primary Text */}
-              <span className="text-xl md:text-[1.35rem] font-serif text-[var(--color-antique-gold,#D4AF37)] drop-shadow-[0_0_8px_rgba(212,175,55,0.5)] tracking-wide leading-tight mb-0.5 group-hover:drop-shadow-[0_0_12px_rgba(212,175,55,0.8)] transition-all duration-500 whitespace-nowrap">
+              <span className="text-xl md:text-[1.35rem] font-serif text-[var(--color-antique-gold,#D4AF37)] drop-shadow-[0_0_8px_rgba(212,175,55,0.5)] tracking-wide leading-tight mb-0.5 group-hover:drop-shadow-[0_0_12px_rgba(212,175,55,0.8)] transition-all duration-500">
                 കണ്ണമ്പ്ര – ഋഷിനാരദമംഗലം വേല
               </span>
               
               {/* English Subtitle */}
-              <span className="font-cinzel text-[0.55rem] md:text-[0.65rem] font-bold tracking-[0.2em] text-[var(--color-antique-gold,#D4AF37)]/80 group-hover:text-white transition-colors duration-300 whitespace-nowrap">
+              <span className="font-cinzel text-[0.55rem] md:text-[0.65rem] font-bold tracking-[0.2em] text-[var(--color-antique-gold,#D4AF37)]/80 group-hover:text-white transition-colors duration-300">
                 KANNAMBRA – RISHINARADAMANGALAM VELA
               </span>
             </div>

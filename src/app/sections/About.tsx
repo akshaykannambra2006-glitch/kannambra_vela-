@@ -118,7 +118,7 @@ export default function AboutSection() {
             {/* Cinematic background glow on hover */}
             <div className="absolute -inset-4 bg-[var(--color-lamp-glow)] opacity-0 group-hover:opacity-10 blur-2xl transition-opacity duration-1000 rounded-full" />
             
-            <h3 className="text-5xl md:text-6xl lg:text-7xl font-cinzel leading-[1.1] relative z-10 transition-all duration-700 group-hover:tracking-wide">
+            <h3 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-cinzel leading-[1.1] relative z-10 transition-all duration-700 group-hover:tracking-wide">
               A celebration of <br/>
               <span className="italic text-white/50 font-light font-serif">devotion</span> & <br/>
               cultural <span className="text-[var(--color-temple-red)] font-bold drop-shadow-[0_0_20px_rgba(122,14,14,0.6)]">grandeur</span>.

@@ -180,7 +180,7 @@ export default function HeroSection() {
               
               <h1 
                 ref={textRef}
-                className="font-serif text-5xl md:text-7xl lg:text-8xl tracking-widest text-transparent bg-clip-text bg-gradient-to-b from-[#FFF5D1] to-[#D4AF37] drop-shadow-[0_0_40px_rgba(212,175,55,0.5)] leading-tight font-black uppercase"
+                className="font-serif text-3xl sm:text-5xl md:text-7xl lg:text-8xl tracking-widest text-transparent bg-clip-text bg-gradient-to-b from-[#FFF5D1] to-[#D4AF37] drop-shadow-[0_0_40px_rgba(212,175,55,0.5)] leading-tight font-black uppercase"
               >
                 Rishinaradamangalam <br className="hidden md:block"/> Desam
               </h1>

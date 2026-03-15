@@ -1,4 +1,5 @@
 import HeroSection from "./sections/Hero";
+import KummattiSection from "./sections/Kummatti";
 import AboutSection from "./sections/About";
 import KeralaTourismSection from "./sections/KeralaTourism";
 import CountdownSection from "./sections/CountdownSection";
@@ -17,6 +18,7 @@ export default function OldWebsitePage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between w-full overflow-hidden bg-[#0F0F0F] text-[#F7F3E9] selection:bg-[#D4AF37] selection:text-[#0F0F0F]">
       <HeroSection />
+      <KummattiSection />
       <CountdownSection />
       <AboutSection />
       <KeralaTourismSection />

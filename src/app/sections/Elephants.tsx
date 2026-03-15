@@ -230,7 +230,7 @@ export default function ElephantsSection() {
         {/* Spotlight behind main heading */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-32 bg-[var(--color-antique-gold)]/10 blur-[80px] pointer-events-none rounded-[100%]" />
         
-        <h2 className="font-serif text-5xl md:text-7xl lg:text-[6rem] text-[#FFF3D6] drop-shadow-[0_0_25px_rgba(212,175,55,0.5)] mb-4 leading-tight">
+        <h2 className="font-serif text-4xl sm:text-5xl md:text-7xl lg:text-[6rem] text-[#FFF3D6] drop-shadow-[0_0_25px_rgba(212,175,55,0.5)] mb-4 leading-tight">
           ഗജവീരന്മാർ
         </h2>
         <p className="font-serif text-sm md:text-base lg:text-lg text-[var(--color-ivory)]/90 uppercase tracking-[0.3em] lg:tracking-[0.4em]">
